@@ -18,6 +18,12 @@ Um launcher leve, bonito e feito para controle remoto, criado especialmente com 
 
 ## Instalar na Mi Box
 
+### Opção mais fácil: MiFlow Manager para Windows
+
+O aplicativo em `windows/MiFlow.Manager` procura a Mi Box na rede, conecta por ADB, instala ou atualiza o launcher, instala outros APKs, abre a Google Play e restaura o launcher original. Consulte [`windows/README.md`](windows/README.md).
+
+Na primeira conexão, aceite a chave RSA que aparecerá na televisão.
+
 ### 1. Ative o modo desenvolvedor
 
 Na TV: **Configurações → Preferências do dispositivo → Sobre → Build**. Aperte OK sete vezes. Depois ative **Depuração USB** nas opções do desenvolvedor.

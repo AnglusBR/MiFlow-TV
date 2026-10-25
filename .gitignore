@@ -8,3 +8,7 @@ local.properties
 .idea/
 captures/
 build.*.log
+.vs/
+windows/**/bin/
+windows/**/obj/
+windows/**/publish/

@@ -21,3 +21,13 @@ jobs:
         with:
           name: MiFlow-TV-debug
           path: app/build/outputs/apk/debug/app-debug.apk
+
+  windows-manager:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: '8.0.x'
+      - name: Build MiFlow Manager
+        run: dotnet build windows/MiFlow.Manager/MiFlow.Manager.csproj -c Release
