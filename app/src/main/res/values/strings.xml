@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MiFlow TV</string>
+    <string name="tagline">Sua Mi Box. Do seu jeito.</string>
+    <string name="favorites">Favoritos</string>
+    <string name="all_apps">Todos os apps</string>
+    <string name="empty_apps">Nenhum aplicativo nesta categoria</string>
+    <string name="unofficial_notice">Projeto independente, não afiliado à Xiaomi.</string>
+</resources>
